@@ -12,3 +12,10 @@ imagem1.addEventListener("click", function () {
 });
 
 // Imagem 2
+const imagem2 = document.getElementById("lampada-02");
+imagem2.addEventListener("mouseover", function () {
+   imagem2.src=("img/lampada.jpg")                        //vâo acontecer 2 eventos, ascender com o mouse em cima e apagar com  o mouse fora 
+})
+imagem2.addEventListener("mouseout", function(){
+
+});
